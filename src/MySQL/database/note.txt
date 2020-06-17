@@ -1,0 +1,28 @@
+
+    create table Student(
+        id int,
+        name varchar(32),
+        age int,
+        score double(4,1),
+        birthday date,
+        insert_time timestamp
+    );
+
+    create table Student1(
+        int num, -- 编号
+        name varchar(40), -- 姓名
+        age int, -- 年龄
+        sex varchar(5), -- 性别
+        adress varchar(100), -- 地址
+        math float(4,1), -- 数学成绩
+        English float(4,1), -- 英语成绩
+    );
+
+    insert into student(id,name,age,sex,adress,math,English) values
+    (1,"王寒雪",24,'女',"7-326",145.5,34.5),
+    (2,"王亚",25,'男',"7-323",134.5,14.5),
+    (3,"张三",26,'女',"7-322",111.5,13.5),
+    (4,"李四",27,'人妖',"7-324",145.5,4.5),
+    (5,"王五",28,'未知',"7-325",144.5,3.5),
+    (6,"孙六",29,'男',"7-328",14.5,1.5),
+    (7,"赵七",20,'女',"7-329",45.5,14.5);
